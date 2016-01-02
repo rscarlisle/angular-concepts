@@ -4,12 +4,12 @@
 	<head>
 		<title>Angular by Kudvenkat</title>
 		<script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.0-rc.2/angular.js'></script>
+		<script src="script.js"></script>
 	</head>
 	<body>
-		<div>
-			{{ ['David', 'Pam', 'Sara'][0] }}<br>
-			{{ {name: 'David', age: 30 }.age }}
+		<div ng-controller = "myController">
+			{{ message }}<br>
 		</div>
-		<script src="script.js"></script>
+		
 	</body>
 </html>
