@@ -1,6 +1,6 @@
-var myApp = angular.module('myModule', []);
+var myApp = angular.module('myApp', []);
 
-myApp.ontroller = ("myController", function($scope) {
+myApp.myController = ("myController", function($scope) {
 	$scope.message = "AngularJS Tutorial";
 });
 
